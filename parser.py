@@ -1,6 +1,4 @@
-from bitarray import bitarray
-
-def parse_tree_from_bits(bits: bitarray) -> list[list[int]]:
+def parse_tree_from_bits(bits: list[int]) -> list[list[int]]:
     """Восстановление дерева из битовой последовательности.
 
     :param bits: последовательность битов (0 — спуск к новому ребёнку, 1 — подъём к родителю)

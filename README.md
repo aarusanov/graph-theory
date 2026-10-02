@@ -32,4 +32,4 @@ linear_sum_assignment(graph, maximize=True)  # (11, [0, 2, 1]) — максим�
 linear_sum_assignment([[1, INF], [2, 1]])    # (2, [0, 1]): ребро 0→1 отсутствует (INF)
 ```
 
-Самопроверка: `venv/Scripts/python main.py` печатает `hungarian: ok`.
+Самопроверка: `uv run main.py` печатает `hungarian: ok` (окружение — `uv sync`).

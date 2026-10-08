@@ -44,6 +44,7 @@ class Solution:
     assert check_planarity([[1, 2], [0, 2], [0, 1]])                # треугольник
     assert check_planarity([[1], [0]])                              # лес без циклов
     assert check_planarity([[1, 3, 2], [0, 2], [0, 1, 3], [0, 2]])  # K4
+    assert check_planarity([[2, 3, 4], [2, 3, 4], [0, 1], [0, 1], [0, 1]])  # K2,3
     assert check_planarity([[1, 2, 4], [0, 3, 5], [0, 3, 6], [1, 2, 7],
                             [0, 5, 6], [1, 4, 7], [2, 4, 7], [3, 5, 6]])  # куб Q3
 

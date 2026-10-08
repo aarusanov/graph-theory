@@ -42,6 +42,7 @@ linear_sum_assignment([[1, INF], [2, 1]])    # (2, [0, 1]): ребро 0→1 о�
 from algorithm import check_planarity
 
 check_planarity([[1, 3, 2], [0, 2], [0, 1, 3], [0, 2]])  # True - K4
+check_planarity([[2, 3, 4], [2, 3, 4], [0, 1], [0, 1], [0, 1]])  # True - K2,3
 check_planarity([[3, 4, 5], [3, 4, 5], [3, 4, 5],
                  [0, 1, 2], [0, 1, 2], [0, 1, 2]])       # False - K3,3
 ```
